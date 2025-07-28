@@ -105,9 +105,13 @@ Password: admin
 
 
  screenshots
-![Login](https://user-images.githubusercontent.C:\Users\Administrator\Pictures\Screenshots.png)
 
-![Login](https://user-images.githubusercontent.com/C:\Users\Administrator\Pictures\Screenshots.png)
+
+<img width="1920" height="1080" alt="Screenshot 2025-07-28 231806" src="https://github.com/user-attachments/assets/d6ddd7b2-0721-4b78-ac68-480073ccadb4" />
+
+
+<img width="1920" height="1080" alt="Screenshot 2025-07-28 231830" src="https://github.com/user-attachments/assets/ef28de16-e684-4892-94cd-e75b3c75470d" />
+
 
 
 🛠️ Future Improvements
