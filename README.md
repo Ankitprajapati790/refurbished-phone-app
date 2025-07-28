@@ -105,8 +105,10 @@ Password: admin
 
 
  screenshots
-<img width="1920" height="1080" alt="Screenshot 2025-07-28 231806" src="https://github.com/user-attachments/assets/85b16d59-fd5e-439b-898b-2436c20f4d81" />
-<img width="1920" height="1080" alt="Screenshot 2025-07-28 231830" src="https://github.com/user-attachments/assets/acd670b7-0cd0-4990-9721-a920130d2576" />
+![Login](https://user-images.githubusercontent.C:\Users\Administrator\Pictures\Screenshots.png)
+
+![Login](https://user-images.githubusercontent.com/C:\Users\Administrator\Pictures\Screenshots.png)
+
 
 🛠️ Future Improvements
 🔐 Add real authentication with hashed passwords
