@@ -1,0 +1,40 @@
+<!-- templates/dashboard.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard - Refurbished Phone App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Phone Inventory</h2>
+        <a href="{{ url_for('logout') }}">Logout</a>
+        <table>
+            <thead>
+                <tr>
+                    <th>Phone</th>
+                    <th>Condition</th>
+                    <th>Stock</th>
+                    <th>Platform Listings</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for phone in phones %}
+                <tr>
+                    <td>{{ phone.name }}</td>
+                    <td>{{ phone.condition }}</td>
+                    <td>{{ phone.stock }}</td>
+                    <td>
+                        <ul>
+                            {% for p in phone.platforms %}
+                            <li><strong>{{ p.platform }}</strong> – {{ p.condition }}, ${{ p.price }} (Fee: {{ p.fee }})</li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
